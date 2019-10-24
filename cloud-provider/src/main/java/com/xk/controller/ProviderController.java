@@ -12,6 +12,7 @@ public class ProviderController {
         User user=new User();
         user.setId(id);
         user.setName("张三");
+
         return user;
     }
     @GetMapping(value = "/getName")
